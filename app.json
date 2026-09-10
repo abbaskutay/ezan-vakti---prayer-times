@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Ezan Vakti",
+    "slug": "ezan-vakti",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ezanvakti.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Ezan vakitlerini ve kıble açısını hesaplamak için konumunuza ihtiyaç duyulmaktadır."
+      }
+    },
+    "android": {
+      "package": "com.ezanvakti.app",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Ezan vakitlerini ve kıble açısını hesaplamak için konumunuza ihtiyaç duyulmaktadır."
+        }
+      ]
+    ]
+  }
+}
